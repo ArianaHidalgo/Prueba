@@ -1,3 +1,4 @@
+
 header{
   background-image: url(../img/hola.jpeg);
   background-size: cover;
@@ -53,7 +54,7 @@ header div h1 {
 }
 .work .card{
   margin: 25px;
-  width: 800px;
+  width: 50rem;
   padding: 10px;
 }
 .exp h1{
@@ -62,18 +63,7 @@ header div h1 {
   font-size: 30px;
   margin-top: 10px;
 }
-.exp {
-  height: 690px;
-  text-align: center;
-}
-.exp p{
-  position: relative;
-  top: 200px;
-}
-.exp button{
-  position: relative;
-  top: 400px;
-}
+
 footer{
   background-color: #05b7c0;
   font-family: "Amatic SC";
@@ -90,4 +80,48 @@ footer{
 .about .row{
   font-family: "Amatic SC";
   padding: 25px;
+}
+.exp form{
+  width: 250px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+@media (min-width: 576px){
+  header{
+    height: 600px;
+  }
+  header div{
+    position: relative;
+    top: 450px;
+    font-size: 35px;
+    padding: 13px;
+  }
+  header div h1 {
+    border-top: 3px solid white;
+    display: inline;
+    font-family: "Permanent Marker";
+   font-size: 45px;
+  }
+  .work .row{
+    flex-wrap: nowrap;
+    margin: 12px 90px;
+  }
+  .work div{
+    width: 65rem;
+  }
+  .about h1{
+    text-align: center;
+    font-family: "Permanent Marker";
+    font-size: 50px;
+  }
+  .about .row{
+    font-family: "Amatic SC";
+    padding: 25px;
+    font-size: 20px;
+  }
+  .exp form{
+    width: 1200px;
+    margin-left: 90px;
+    margin-bottom: 30px;
+  }
 }
