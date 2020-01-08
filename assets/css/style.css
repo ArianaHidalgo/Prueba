@@ -1,0 +1,90 @@
+header{
+  background-image: url(../img/hola.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-color{
+  background-color: #05B7C0;
+}
+.tip{
+  font-family: "Amatic SC";
+  font-size: 120px;
+}
+header div{
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 400px;
+  font-size: 40px;
+}
+header div h1 {
+  border-top: 3px solid white;
+  display: inline;
+  font-family: "Permanent Marker";
+}
+.EXP h1{
+  font-family: "Permanent Marker";
+  text-align: center;
+  text-decoration: underline;
+}
+.EXP i{
+  color: #05B7C0;
+  display: inline;
+  font-size: 120px;
+}
+.EXP div {
+  text-align: center;
+  font-family: "Amatic SC";
+  margin-top: 23px;
+  font-size: 70px;
+}
+.work{
+  background-color: #05b7c0;
+}
+.work h1{
+  color:white;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Permanent Marker";
+  padding: 17px;
+}
+.work .card{
+  margin: 25px;
+  width: 800px;
+  padding: 10px;
+}
+.exp h1{
+  font-family: "Permanent Marker";
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.exp {
+  height: 690px;
+  text-align: center;
+}
+.exp p{
+  position: relative;
+  top: 200px;
+}
+.exp button{
+  position: relative;
+  top: 400px;
+}
+footer{
+  background-color: #05b7c0;
+  font-family: "Amatic SC";
+  font-size: 70px;
+  text-align: center;
+  color:white;
+  padding: 12px;
+}
+.about h1{
+  text-align: center;
+  font-family: "Permanent Marker";
+  font-size: 30px;
+}
+.about .row{
+  font-family: "Amatic SC";
+  padding: 25px;
+}
