@@ -1,20 +1,16 @@
 $(function(){
+  $("nav a").click(function(evento){
+     if (this.hash !== ""){
+       event.preventDefault();
 
-  $("a").click(function(event){
-    if (this.hash !== "") {
-    event.preventDefault();
+       var pio = this.hash;
 
-    var scroll = this.hash;
-
-    $('html, body').animate({
-      scrollTop: $(scroll).offset().top
-    }, 900, function(){
-      window.location.hash = scroll;
-    });
-     }
-   });
+       $('html, body').animate({
+         scrollTop: $(pio).offset().top
+       }, 800, function(){
+         window.location.hash= pio;
+     });
+   }
+ });
+ $('[data-toggle="popover"]').popover();
 });
-
-$(function () {
-  $('[data-toggle="popover"]').popover();
-})
