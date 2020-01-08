@@ -12,6 +12,10 @@ header{
   font-family: "Amatic SC";
   font-size: 120px;
 }
+.sel{
+  font-family: "Amatic SC";
+  font-size: 40px;
+}
 header div{
   color: white;
   text-align: center;
@@ -41,6 +45,11 @@ header div h1 {
   font-family: "Amatic SC";
   margin-top: 23px;
   font-size: 70px;
+}
+.EXP a{
+  font-size: 40px;
+  color: #05b7c0;;
+
 }
 .work{
   background-color: #05b7c0;
