@@ -14,13 +14,15 @@ header div{
   color: white;
   text-align: center;
   position: relative;
-  top: 400px;
-  font-size: 40px;
+  top: 10px;
+  font-size: 10px;
+  padding: 13px;
 }
 header div h1 {
   border-top: 3px solid white;
   display: inline;
   font-family: "Permanent Marker";
+ font-size: 25px;
 }
 .EXP h1{
   font-family: "Permanent Marker";
